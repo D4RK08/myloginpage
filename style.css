@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+button {
+  background-color: #4CAF50; /* Colore di sfondo verde */
+  color: white; /* Colore testo bianco */
+  padding: 7px 10px; /* Spaziatura interna */
+  margin: 8px 10; /* Margine */
+  border: none; /* Rimuovi il bordo */
+  cursor: pointer; /* Punta del cursore a forma di mano */
+  width: 100%; /* Larghezza del pulsante */
+}
+
+button:hover {
+  opacity: 0.8; /* Opacità al passaggio del mouse */
+}
+ /*Stile del modulo di registrazione */
+form {
+  width: 20%;
+  margin: 0;
+  text-align: center;
+  padding: 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Stile dei campi di input */
+input[type="text"], input[type="password"], input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Stile del pulsante di invio */
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+/* Stile dei campi di input */
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Stile del pulsante di invio */
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
